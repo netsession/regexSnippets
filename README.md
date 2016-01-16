@@ -3,10 +3,10 @@
 
 ## Overview
 
-* [Linux command outputs](linux)
+* [Linux command outputs](#linux)
     * [ls output](#ls-output)
 
-* [General stuff](general-stuff)
+* [General stuff](#general-stuff)
     * [email](#email)
 
 
