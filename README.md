@@ -3,11 +3,16 @@
 
 ## Overview
 
-[FTP](#FTP)
+* [Linux command outputs](linux)
+    * [ls output](#ls-output)
+
+* [General stuff](general-stuff)
+    * [email](#email)
 
 
-## FTP
-### ls output
+
+## Linux
+### `ls` output
 The pattern below matches the following match groups:
 1. Type of element: File, directory, symlink, named pipe, socket, block device or door.
 2. Permission
@@ -27,3 +32,18 @@ The pattern below matches the following match groups:
 
 #### Example
 https://regex101.com/r/cN5gG2/1
+
+
+## General stuff
+### Email
+Matches the following groups:
+1. Username
+2. Domain
+
+#### Pattern
+```
+([a-zA-Z0-9_\-\.]+)\@(.+\..{2,})
+```
+
+#### Example
+https://regex101.com/r/kR6yE2/1
