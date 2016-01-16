@@ -14,6 +14,7 @@
 ## Linux
 ### `ls` output
 The pattern below matches the following match groups:
+
 1. Type of element: File, directory, symlink, named pipe, socket, block device or door.
 2. Permission
 3. Number of nodes (?)
@@ -37,6 +38,7 @@ https://regex101.com/r/cN5gG2/1
 ## General stuff
 ### Email
 Matches the following groups:
+
 1. Username
 2. Domain
 
