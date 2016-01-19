@@ -9,6 +9,7 @@
     * [md5](#md5)
 * [General stuff](#general-stuff)
     * [email](#email)
+    * [URLs](#urls)
 
 
 
@@ -64,3 +65,21 @@ Matches the following groups:
 
 #### Example
 https://regex101.com/r/kR6yE2/1
+
+
+### URLs
+Matches the following groups:
+
+1. Scheme (http, https, ...)
+2. Domain
+3. Path (if any)
+4. GET-Arguments (if any)
+5. Fragment (if any)
+
+#### Pattern
+```
+(.{3,})\:\/\/(.+?)(?:(\/.+)?(\?.+)(\#.+)|(\/.+)(\?.+)|(\/.+)(\#.+)|\s)
+```
+
+#### Example
+https://regex101.com/r/cL5kR3/5
