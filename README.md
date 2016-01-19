@@ -5,7 +5,8 @@
 
 * [Linux command outputs](#linux)
     * [ls output](#ls-output)
-
+* [Hashes](#hashes)
+    * [md5](#md5)
 * [General stuff](#general-stuff)
     * [email](#email)
 
@@ -33,6 +34,20 @@ The pattern below matches the following match groups:
 
 #### Example
 https://regex101.com/r/cN5gG2/1
+
+
+## Hashes
+### MD5
+Checks for hexadecimal values which must be 32 chars long.
+
+#### Pattern
+```
+[a-fA-F0-9]{32}
+```
+
+#### Example
+https://regex101.com/r/tU4fA1/1
+
 
 
 ## General stuff
