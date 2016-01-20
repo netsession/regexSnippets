@@ -6,9 +6,9 @@
 * [Linux command outputs](#linux)
     * [ls output](#ls-output)
 * [Hashes](#hashes)
-    * [md5](#md5)
+    * [MD5](#md5)
 * [General stuff](#general-stuff)
-    * [email](#email)
+    * [Email](#email)
     * [URLs](#urls)
 
 
@@ -78,8 +78,8 @@ Matches the following groups:
 
 #### Pattern
 ```
-(\w{3,})\:\/\/(.+?)(?:(\/.+)?(\?.+)(\#.+)|(\/.+)(\?.+)|(\/.+)(\#.+)|(\/.+)|\s)
+(\w{3,})\:\/\/(?:(.+?)(\/.+)?(\?.+)(\#.+)|(.+?)(\/.+)(\?.+)|(.+?)(\/.+)(\#.+)|(.+?)(\/.+)|[^\s\/\#\?]+)
 ```
 
 #### Example
-https://regex101.com/r/cL5kR3/5
+https://regex101.com/r/cL5kR3/7
