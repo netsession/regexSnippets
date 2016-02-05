@@ -83,7 +83,7 @@ Version 2: Restrictive
 #### Examples
 Version 1: https://regex101.com/r/eO0lY8/1
 
-Version 2: https://regex101.com/r/eO0lY8/2
+Version 2: https://regex101.com/r/eO0lY8/3
 
 ---
 <br>
