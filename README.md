@@ -7,10 +7,11 @@
     * [ls output](#ls-output)
 * [Hashes](#hashes)
     * [MD5](#md5)
+* [Filesharing](#filesharing)
+    * [TV-Shows](#tv-shows)
 * [General stuff](#general-stuff)
     * [Email](#email)
     * [URLs](#urls)
-
 
 
 ## Linux
@@ -36,6 +37,8 @@ The pattern below matches the following match groups:
 #### Example
 https://regex101.com/r/cN5gG2/1
 
+---
+<br>
 
 ## Hashes
 ### MD5
@@ -49,7 +52,40 @@ Checks for hexadecimal values which must be 32 chars long.
 #### Example
 https://regex101.com/r/tU4fA1/1
 
+---
+<br>
 
+## Filesharing
+### TV-Shows
+Matches the following groups:
+
+1. Name
+2. Season
+3. Episode
+4. Quality (if it exists, e.g. 720p, 1080p, ..)
+5. Mixed stuff (if it exists. Might contain the quality, file encoding etc.)
+6. Groupname
+7. Packager (if it exists [xyz])
+8. Fileextension
+
+#### Patterns
+Version 1: Less restrictive
+
+```
+(.+).(?:[Ss _\.](\d{2,})[Ee _\.](\d{2,}))[\. _](\d{3,4}p)?(.+)?.*?\-(.+?)(?:\[(.+)\])?\.(\w+)
+```
+
+Version 2: Restrictive
+```
+([a-zA-Z0-9\.\- ]+)[\. _](?:[Ss](\d{2,})[Ee](\d{2,}))[\. _](\d{3,4}p)?(.+)\-([a-zA-Z0-9]+)(?:\[(.+)\]\.)?(mkv|mp4|avi)
+```
+
+#### Examples
+Version 1: https://regex101.com/r/eO0lY8/1
+Version 2: https://regex101.com/r/eO0lY8/2
+
+---
+<br>
 
 ## General stuff
 ### Email
@@ -66,6 +102,7 @@ Matches the following groups:
 #### Example
 https://regex101.com/r/kR6yE2/1
 
+<br>
 
 ### URLs
 Matches the following groups:
