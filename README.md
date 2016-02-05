@@ -5,6 +5,7 @@
 
 * [Linux command outputs](#linux)
     * [ls output](#ls-output)
+    * [cat /etc/passwd](#cat-etc-passwd)
 * [Hashes](#hashes)
     * [MD5](#md5)
 * [Filesharing](#filesharing)
@@ -39,6 +40,25 @@ https://regex101.com/r/cN5gG2/1
 
 ---
 <br>
+
+### `cat /etc/passwd` output
+The following groups are matched:
+
+1. Username
+2. Password (Encrypted password or `x` if it's stored in the shadow file)
+3. User ID (UID)
+4. Group ID (GID)
+5. User ID Info
+6. Home directory
+7. Command/Shell
+
+#### Pattern
+```
+(.+)\:(.+?)\:(\d+)\:(\d+)\:(.*?)\:(.*?)\:(.*)
+```
+
+#### Example
+https://regex101.com/r/dK9pG0/1
 
 ## Hashes
 ### MD5
