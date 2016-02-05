@@ -5,7 +5,7 @@
 
 * [Linux command outputs](#linux)
     * [ls output](#ls-output)
-    * [cat /etc/passwd](#cat-etc-passwd)
+    * [cat /etc/passwd](#cat-etcpasswd-output)
 * [Hashes](#hashes)
     * [MD5](#md5)
 * [Filesharing](#filesharing)
@@ -96,16 +96,16 @@ Matches the following groups:
 Version 1: Less restrictive
 
 ```
-(.+).(?:[Ss _\.](\d{2,})[Ee _\.](\d{2,}))[\. _](\d{3,4}p)?(.+)?.*?\-(.+?)(?:\[(.+)\])?\.(\w+)
+(.+)(?:[Ss _\.](\d{2,})[Ee _\.](\d{2,}))[\. _](\d{3,4}p)?(.+)?.*?\-(.+?)(?:\[(.+)\])?\.(\w+)
 ```
 
 Version 2: Restrictive
 ```
-([a-zA-Z0-9\.\- ]+)[\. _](?:[Ss](\d{2,})[Ee](\d{2,}))[\. _](\d{3,4}p)?(.+)\-([a-zA-Z0-9]+)(?:\[(.+)\]\.)?(mkv|mp4|avi)
+([a-zA-Z0-9\.\- ]+)[\. _](?:[Ss](\d{2,})[Ee](\d{2,}))[\. _](\d{3,4}p)?(.+)\-([a-zA-Z0-9]+)(?:\[(.+)\])?\.(mkv|mp4|avi)
 ```
 
 #### Examples
-Version 1: https://regex101.com/r/eO0lY8/1
+Version 1: https://regex101.com/r/eO0lY8/4
 
 Version 2: https://regex101.com/r/eO0lY8/3
 
