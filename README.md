@@ -60,6 +60,10 @@ The following groups are matched:
 #### Example
 https://regex101.com/r/dK9pG0/1
 
+---
+<br>
+
+
 ## Hashes
 ### MD5
 Checks for hexadecimal values which must be 32 chars long.
