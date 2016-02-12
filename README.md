@@ -6,8 +6,12 @@
 * [Linux command outputs](#linux)
     * [ls output](#ls-output)
     * [cat /etc/passwd](#cat-etcpasswd-output)
+* [Security](#security)
+    * [Shellcode](#shellcode)
 * [Hashes](#hashes)
     * [MD5](#md5)
+* [Encodings](#encodings)
+    * [Base64](#base64)
 * [Filesharing](#filesharing)
     * [TV-Shows](#tv-shows)
 * [General stuff](#general-stuff)
@@ -63,6 +67,22 @@ https://regex101.com/r/dK9pG0/1
 ---
 <br>
 
+## Security
+### Shellcode
+Finds shellcode, it's not used to match a complete shellcode buffer
+but instead to check if there is shellcode in a document.
+
+#### Pattern
+```
+((?:\\x[a-fA-F0-9]{2})+)
+```
+
+#### Example
+https://regex101.com/r/kU7cZ8/1
+
+---
+<br>
+
 
 ## Hashes
 ### MD5
@@ -78,6 +98,22 @@ https://regex101.com/r/tU4fA1/1
 
 ---
 <br>
+
+## Encodings
+### Base64
+Searches for base64 encoded data.
+
+#### Pattern
+```
+((?:[a-zA-Z0-9\+\/]{4}){4,}(?:[a-zA-Z0-9\+\/]{0,3}\={1,3})?)
+```
+
+#### Example
+https://regex101.com/r/vS8wI0/1
+
+---
+<br>
+
 
 ## Filesharing
 ### TV-Shows
