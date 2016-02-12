@@ -4,7 +4,7 @@
 ## Overview
 
 * [Linux command outputs](#linux)
-    * [ls -lth output](#ls-output)
+    * [ls -l output](#ls-output)
     * [cat /etc/passwd](#cat-etcpasswd-output)
 * [Security](#security)
     * [Shellcode](#shellcode)
@@ -33,6 +33,8 @@ The pattern below matches the following match groups:
 8. Day
 9. Year (or in some cases a time in the format HH:MM)
 10. Filename
+
+(This pattern can also be used for FTP server listings)
 
 #### Pattern
 ```
