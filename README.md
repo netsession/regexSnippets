@@ -4,7 +4,7 @@
 ## Overview
 
 * [Linux command outputs](#linux)
-    * [ls -l output](#ls-output)
+    * [ls -l output](#ls--l-output)
     * [cat /etc/passwd](#cat-etcpasswd-output)
 * [Security](#security)
     * [Shellcode](#shellcode)
