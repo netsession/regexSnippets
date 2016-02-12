@@ -38,11 +38,11 @@ The pattern below matches the following match groups:
 
 #### Pattern
 ```
-([-|d|l|p|s|b|D])([-|r|w|x|s|t]{9})\s+?(\d+?)\s+?(\w+)\s+(\w+)\s+?(\d+)\s+?(\w{3})\s(\d+)\s+?(\d{4}|\d{2}\:\d{2})\s(.*)
+([-|d|l|p|s|b|D])([-|r|w|x|s|t]{9})\s+?(\d+?)\s+?(\w+)\s+(\w+)\s+?(\d+)\s+?(\w{3})\s+(\d+)\s+?(\d{4}|\d{2}\:\d{2})\s(.*)
 ```
 
 #### Example
-https://regex101.com/r/cN5gG2/1
+This version supports the `ls -l` and `ls -lh` command: https://regex101.com/r/cN5gG2/2
 
 ---
 <br>
