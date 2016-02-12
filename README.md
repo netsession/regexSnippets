@@ -4,7 +4,7 @@
 ## Overview
 
 * [Linux command outputs](#linux)
-    * [ls output](#ls-output)
+    * [ls -lth output](#ls-output)
     * [cat /etc/passwd](#cat-etcpasswd-output)
 * [Security](#security)
     * [Shellcode](#shellcode)
@@ -20,7 +20,7 @@
 
 
 ## Linux
-### `ls` output
+### `ls -l` output
 The pattern below matches the following match groups:
 
 1. Type of element: File, directory, symlink, named pipe, socket, block device or door.
