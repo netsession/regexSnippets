@@ -10,7 +10,7 @@
     * [Shellcode](#shellcode)
 * [Hashes](#hashes)
     * [MD5](#md5)
-    * [Drupal 7 (old)](#drupal-7--old-)
+    * [Drupal 7 (old)](#drupal-7-old)
 * [Encodings](#encodings)
     * [Base64](#base64)
 * [Filesharing](#filesharing)
@@ -104,6 +104,11 @@ https://regex101.com/r/tU4fA1/1
 ### Drupal 7 (old)
 Matches old Drupal 7 password hashes.
 The following groups are matched:
+
+1. Hash type (always "$S$")
+2. Number of log2 rounds based on the position of the char in this list
+
+(Source of the parts of the hash from  [stackoverflow](http://stackoverflow.com/questions/5031662/what-is-drupals-default-password-encryption-method#answer-19274472)
 
 #### Pattern
 ```
