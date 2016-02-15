@@ -106,7 +106,10 @@ Matches old Drupal 7 password hashes.
 The following groups are matched:
 
 1. Hash type (always "$S$")
-2. Number of log2 rounds based on the position of the char in this list
+2. Number of log2 rounds (X) based on the position of the char in this list
+   './0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', example "D" -> 15
+3. Salt
+4. SHA512 hash using 2^X rounds
 
 (Source of the parts of the hash from  [stackoverflow](http://stackoverflow.com/questions/5031662/what-is-drupals-default-password-encryption-method#answer-19274472)
 
