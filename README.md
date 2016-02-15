@@ -10,6 +10,7 @@
     * [Shellcode](#shellcode)
 * [Hashes](#hashes)
     * [MD5](#md5)
+    * [Drupal 7 (old)](#drupal-7--old-)
 * [Encodings](#encodings)
     * [Base64](#base64)
 * [Filesharing](#filesharing)
@@ -85,7 +86,6 @@ https://regex101.com/r/kU7cZ8/1
 ---
 <br>
 
-
 ## Hashes
 ### MD5
 Checks for hexadecimal values which must be 32 chars long.
@@ -97,6 +97,21 @@ Checks for hexadecimal values which must be 32 chars long.
 
 #### Example
 https://regex101.com/r/tU4fA1/1
+
+---
+<br>
+
+### Drupal 7 (old)
+Matches old Drupal 7 password hashes.
+The following groups are matched:
+
+#### Pattern
+```
+(\$S\$)([0-9A-Za-z\.\/])([0-9A-Za-z\.\/]{8})([0-9A-Za-z\.\/]{43})
+```
+
+#### Example
+https://regex101.com/r/zA9zK8/1
 
 ---
 <br>
