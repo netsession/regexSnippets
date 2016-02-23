@@ -18,6 +18,7 @@
 * [General stuff](#general-stuff)
     * [Email](#email)
     * [URLs](#urls)
+    * [MAC-Address](#mac-address)
 
 
 ## Linux
@@ -206,3 +207,19 @@ Matches the following groups:
 
 #### Example
 https://regex101.com/r/cL5kR3/7
+
+
+### MAC-Addresses
+Matches each value of a MAC-Address.
+
+The matched formats are:
+`MM:MM:MM:SS:SS:SS`, `MM-MM-MM-SS-SS-SS` and `MMMM.MMSS.SSSS`
+
+#### Pattern
+```
+(?<![a-fA-F0-9])(?:([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})|([a-fA-F0-9]{4})\.([a-fA-F0-9]{4})\.([a-fA-F0-9]{4}))(?![a-fA-F0-9])
+```
+
+#### Example
+https://regex101.com/r/lF5pJ4/2
+
