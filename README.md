@@ -41,7 +41,7 @@ The pattern below matches the following match groups:
 
 (This pattern can also be used for FTP server listings)
 
-#### Pattern
+##### Pattern
 ```
 ([-|d|l|p|s|b|D])([-|r|w|x|s|t]{9})\s+?(\d+?)\s+?(\w+)\s+(\w+)\s+?(\d+)\s+?(\w{3})\s+(\d+)\s+?(\d{4}|\d{2}\:\d{2})\s(.*)
 ```
@@ -184,7 +184,7 @@ Matches the following groups:
 1. Username
 2. Domain
 
-#### Pattern
+##### Pattern
 ```
 ([a-zA-Z0-9_\-\.]+)\@(.+\..{2,})
 ```
@@ -204,7 +204,7 @@ Matches the following groups:
 4. GET-Arguments (if any)
 5. Fragment (if any)
 
-#### Pattern
+##### Pattern
 ```
 (\w{3,})\:\/\/(?:(.+?)(\/.+)?(\?.+)(\#.+)|(.+?)(\/.+)(\?.+)|(.+?)(\/.+)(\#.+)|(.+?)(\/.+)|[^\s\/\#\?]+)
 ```
@@ -221,7 +221,7 @@ Matches each value of a MAC-Address.
 The matched formats are:
 `MM:MM:MM:SS:SS:SS`, `MM-MM-MM-SS-SS-SS` and `MMMM.MMSS.SSSS`
 
-#### Pattern
+##### Pattern
 ```
 (?<![a-fA-F0-9])(?:([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})[\:\-]([a-fA-F0-9]{2})|([a-fA-F0-9]{4})\.([a-fA-F0-9]{4})\.([a-fA-F0-9]{4}))(?![a-fA-F0-9])
 ```
