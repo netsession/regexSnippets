@@ -72,7 +72,7 @@ https://regex101.com/r/dK9pG0/1
 <br>
 
 # Security
-### Shellcode
+## Shellcode
 Finds shellcode, it's not used to match a complete shellcode buffer
 but instead to check if there is shellcode in a document.
 
@@ -126,7 +126,7 @@ https://regex101.com/r/zA9zK8/1
 <br>
 
 # Encodings
-### Base64
+## Base64
 Searches for base64 encoded data.
 
 ##### Pattern
@@ -174,8 +174,8 @@ Version 2: https://regex101.com/r/eO0lY8/3
 ---
 <br>
 
-## General stuff
-### Email
+# General stuff
+## Email
 Matches the following groups:
 
 1. Username
@@ -225,4 +225,4 @@ https://regex101.com/r/lF5pJ4/2
 
 <br>
 
-### 
+ 
