@@ -20,6 +20,9 @@
     * [URLs](#urls)
     * [MAC-Address](#mac-address)
 
+---
+<br>
+
 
 # Linux
 ## `ls -l` output
@@ -38,7 +41,7 @@ The pattern below matches the following match groups:
 
 (This pattern can also be used for FTP server listings)
 
-##### Pattern
+#### Pattern
 ```
 ([-|d|l|p|s|b|D])([-|r|w|x|s|t]{9})\s+?(\d+?)\s+?(\w+)\s+(\w+)\s+?(\d+)\s+?(\w{3})\s+(\d+)\s+?(\d{4}|\d{2}\:\d{2})\s(.*)
 ```
@@ -102,7 +105,7 @@ https://regex101.com/r/tU4fA1/1
 ---
 <br>
 
-# Drupal 7 (old)
+## Drupal 7 (old)
 Matches old Drupal 7 password hashes.
 The following groups are matched:
 
@@ -142,7 +145,7 @@ https://regex101.com/r/vS8wI0/1
 
 
 # Filesharing
-##### TV-Shows
+## TV-Shows
 Matches the following groups:
 
 1. Name
@@ -154,7 +157,7 @@ Matches the following groups:
 7. Packager (if it exists [xyz])
 8. Fileextension
 
-#### Patterns
+##### Patterns
 Version 1: Less restrictive
 
 ```
@@ -189,9 +192,10 @@ Matches the following groups:
 ##### Example
 https://regex101.com/r/kR6yE2/1
 
+---
 <br>
 
-### URLs
+## URLs
 Matches the following groups:
 
 1. Scheme (http, https, ...)
@@ -208,8 +212,10 @@ Matches the following groups:
 ##### Example
 https://regex101.com/r/cL5kR3/7
 
+---
+<br>
 
-### MAC-Address
+## MAC-Address
 Matches each value of a MAC-Address.
 
 The matched formats are:
@@ -223,6 +229,8 @@ The matched formats are:
 ##### Example
 https://regex101.com/r/lF5pJ4/2
 
+---
 <br>
+
 
  
