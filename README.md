@@ -25,7 +25,7 @@
 
 
 # Linux
-## `ls -l` output
+### `ls -l` output
 The pattern below matches the following match groups:
 
 1. Type of element: File, directory, symlink, named pipe, socket, block device or door.
@@ -52,7 +52,7 @@ This version supports the `ls -l` and `ls -lh` command: https://regex101.com/r/c
 ---
 <br>
 
-## `cat /etc/passwd` output
+### `cat /etc/passwd` output
 The following groups are matched:
 
 1. Username
@@ -75,7 +75,7 @@ https://regex101.com/r/dK9pG0/1
 <br>
 
 # Security
-## Shellcode
+### Shellcode
 Finds shellcode, it's not used to match a complete shellcode buffer
 but instead to check if there is shellcode in a document.
 
@@ -90,7 +90,7 @@ https://regex101.com/r/kU7cZ8/1
 ---
 <br>
 
-## Hashes
+# Hashes
 ### MD5
 Checks for hexadecimal values which must be 32 chars long.
 
@@ -105,7 +105,7 @@ https://regex101.com/r/tU4fA1/1
 ---
 <br>
 
-## Drupal 7 (old)
+### Drupal 7 (old)
 Matches old Drupal 7 password hashes.
 The following groups are matched:
 
@@ -129,7 +129,7 @@ https://regex101.com/r/zA9zK8/1
 <br>
 
 # Encodings
-## Base64
+### Base64
 Searches for base64 encoded data.
 
 ##### Pattern
@@ -145,7 +145,7 @@ https://regex101.com/r/vS8wI0/1
 
 
 # Filesharing
-## TV-Shows
+### TV-Shows
 Matches the following groups:
 
 1. Name
@@ -178,7 +178,7 @@ Version 2: https://regex101.com/r/eO0lY8/3
 <br>
 
 # General stuff
-## Email
+### Email
 Matches the following groups:
 
 1. Username
@@ -195,7 +195,7 @@ https://regex101.com/r/kR6yE2/1
 ---
 <br>
 
-## URLs
+### URLs
 Matches the following groups:
 
 1. Scheme (http, https, ...)
@@ -215,7 +215,7 @@ https://regex101.com/r/cL5kR3/7
 ---
 <br>
 
-## MAC-Address
+### MAC-Address
 Matches each value of a MAC-Address.
 
 The matched formats are:
