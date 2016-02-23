@@ -209,7 +209,7 @@ Matches the following groups:
 https://regex101.com/r/cL5kR3/7
 
 
-### MAC-Addresses
+### MAC-Address
 Matches each value of a MAC-Address.
 
 The matched formats are:
