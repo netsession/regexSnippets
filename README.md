@@ -8,6 +8,7 @@
     * [cat /etc/passwd](#cat-etcpasswd-output)
 * [Security](#security)
     * [Shellcode](#shellcode)
+    * [Leaked email and password](#leaked-email-and-password)
 * [Hashes](#hashes)
     * [MD5](#md5)
     * [Drupal 7 (old)](#drupal-7-old)
@@ -89,6 +90,27 @@ https://regex101.com/r/kU7cZ8/1
 
 ---
 <br>
+
+### Leaked email and password
+Finds email and password combinations. 
+The following matchgroups are matched:
+
+1. Email
+2. Password 
+
+
+
+##### Pattern
+```
+([\w\.\?\+\-\^\{\}]+\@[\w\.\?\+\-\^]+\.[a-zA-Z]{2,4})(?:[\:\,\.\|\;\t]|\ {1,4})([^\r\n]+)
+```
+
+##### Example
+https://regex101.com/r/zW7aT8/1
+
+---
+<br>
+
 
 # Hashes
 ### MD5
