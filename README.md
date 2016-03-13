@@ -257,7 +257,8 @@ https://regex101.com/r/lF5pJ4/2
 
 ### User-Agent
 Matches various parts of the user-agent. 
-** some/many user-agents arent matched yet - working on a better version **
+
+**some/many user-agents arent matched yet - working on a better version**
 
 
 ##### Pattern
