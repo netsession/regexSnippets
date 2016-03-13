@@ -20,6 +20,7 @@
     * [Email](#email)
     * [URLs](#urls)
     * [MAC-Address](#mac-address)
+    * [User-Agent](#user-agent)
 
 ---
 <br>
@@ -254,5 +255,20 @@ https://regex101.com/r/lF5pJ4/2
 ---
 <br>
 
+### User-Agent
+Matches various parts of the user-agent. 
+** some/many user-agents arent matched yet - working on a better version **
+
+
+##### Pattern
+```regex
+([\w]+?\/(?:\d+?\.?)+?)\ ?\((.+?)\)\ ?([\w]+?\/(?:\d+?\.?)+?)\ (?:([\w]+?\/(?:\d+?\.?)+?[^\w])|\(([\w\d ;,:\.\-]+?)\)\ ([\w\d\.]+\/[\w\d\.]+)(?:\ ([\w\d\.\]+[\/[\w\d\.]+[^\w]))?)
+```
+
+##### Example
+https://regex101.com/r/cZ9fM7/3
+
+---
+<br>
 
  
