@@ -21,6 +21,7 @@
     * [URLs](#urls)
     * [MAC-Address](#mac-address)
     * [User-Agent](#user-agent)
+    * [Version number](#version-number)
 
 ---
 <br>
@@ -272,4 +273,16 @@ https://regex101.com/r/cZ9fM7/3
 ---
 <br>
 
- 
+### Version number
+Matches common version numbers.
+
+##### Pattern
+```regex
+((?:\d\.?)+(?:\-?\w+(?!\w))?)
+```
+
+##### Example
+https://regex101.com/r/lH5jW8/1
+
+---
+<br>
