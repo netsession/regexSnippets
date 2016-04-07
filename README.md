@@ -22,6 +22,7 @@
     * [MAC-Address](#mac-address)
     * [User-Agent](#user-agent)
     * [Version number](#version-number)
+    * [IMDb Movie info](#imdb-movie-info)
 
 ---
 <br>
@@ -287,10 +288,10 @@ https://regex101.com/r/lH5jW8/1
 ---
 <br>
 
-### IMdb Movies
+### IMDb Movie info
 Matches the following information on imdb movie pages:
 
-1. IMdb Title ID (ttxxxxx)
+1. IMDb Title ID (ttxxxxx)
 2. Rating (x/10)
 3. Title
 4. Duration
