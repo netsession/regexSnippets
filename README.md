@@ -286,3 +286,34 @@ https://regex101.com/r/lH5jW8/1
 
 ---
 <br>
+
+### IMdb Movies
+Matches the following information on imdb movie pages:
+
+1. IMdb Title ID (ttxxxxx)
+2. Rating (x/10)
+3. Title
+4. Duration
+5. Genre1*
+6. Genre2*
+7. Genre3*
+8. Release date
+9. Poster link
+10. Short summary
+
+
+*Groups 5-7 might not always exist, only when the movie has 3 genres listed those are matched. The same goes for 2 and 1 genres.
+
+
+##### Pattern
+```regex
+\/title\/(tt\d+)\/.+?itemprop=\"ratingValue\">((?:\d+?\.?)+).+?itemprop="name".+?\>(.+?)&nbsp;.+?\/year\/(\d{4}).+?(\d+?h\s\d+?min|\d+?min|\d+?h)(?:.+?itemprop="genre">(.+?)<\/span.+?itemprop="genre">(.+?)<\/span)?(?:.+?itemprop="genre">(.+?)<\/span)?.+datePublished.+?content="(\d{4}(?:\-\d{2}){2}).+?class="poster".+?src=\"(.+?)\"\sitemprop="image.+?itemprop="description">\s{21}(.+?\.).+?\<\/div>
+```
+
+
+###### Example
+https://regex101.com/r/wU0rQ2/2
+
+---
+<br>
+
